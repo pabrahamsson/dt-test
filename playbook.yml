@@ -5,4 +5,4 @@
   tasks:
     - name: Debug output
       debug:
-        msg: This is my debug message
+        msg: This is my {{ debug_var }}
